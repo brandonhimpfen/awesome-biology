@@ -1,4 +1,4 @@
-# Awesome Name [![Awesome Lists](https://srv-cdn.himpfen.io/badges/awesome-lists/awesomelists-flat.svg)](https://github.com/brandonhimpfen/awesome-lists)
+# Awesome Biology [![Awesome Lists](https://srv-cdn.himpfen.io/badges/awesome-lists/awesomelists-flat.svg)](https://github.com/brandonhimpfen/awesome-lists)
 
 [![Support Open Work](https://img.shields.io/badge/Support-Open%20Work-0A0A0A?style=flat&logo=github)](https://github.com/brandonhimpfen/support) 
 [![GitHub Sponsor](https://srv-cdn.himpfen.io/badges/github/github-flat.svg)](https://github.com/sponsors/brandonhimpfen) 
@@ -8,38 +8,81 @@
 [![X](https://srv-cdn.himpfen.io/badges/twitter/twitter-flat.svg)](https://x.com/ListsAwesome) 
 [![Facebook](https://srv-cdn.himpfen.io/badges/facebook-pages/facebook-pages-flat.svg)](https://www.facebook.com/awesomelists)
 
-📌 This repository is archived with Zenodo and can be cited using the DOI above.
+> A curated list of resources for computational biology, bioinformatics pipelines, sequence alignment tools, structural biology solvers, evolutionary genetics libraries, and biological network analyzers.
 
-> A curated list of resources for
-
-Statement about the importance of the topic. Statement about who the list is intended for.
+Computational biology and bioinformatics combine algorithms, high-performance software frameworks, statistical modeling, and structural predictions to analyze molecular data, genomic sequences, cellular networks, and evolutionary dynamics. This list is intended for computational biologists, bioinformaticians, genomic data engineers, systems biology researchers, and molecular software developers.
 
 _Support ongoing maintenance and curation via [GitHub Sponsors](https://github.com/sponsors/brandonhimpfen)._
 
 ## Contents
 
-- [Section](#section)
-- [Another Section](#another-section)
+- [Genomics & Sequence Analysis](#genomics--sequence-analysis)
+- [Structural Biology & Protein Folding](#structural-biology--protein-folding)
+- [Single-Cell & Transcriptomics](#single-cell--transcriptomics)
+- [Network Biology & Systems Dynamics](#network-biology--systems-dynamics)
+  - [Network Visualization & Pathways](#network-visualization--pathways)
+  - [Systems Simulation & Reaction Kinetics](#systems-simulation--reaction-kinetics)
+- [Language Libraries & Ecosystems](#language-libraries--ecosystems)
+- [Related Awesome Lists](#related-awesome-lists)
 
-## Section
+## Genomics & Sequence Analysis
 
-About this section. Keep this short and focused on what the resources represent.
+Alignment search algorithms, variant callers, genome arithmetic utilities, and high-throughput sequencing pipelines.
 
-- [Example Project One](https://example.com/project-one) — Short, neutral description of what this resource does.
-- [Example Project Two](https://example.com/project-two) — Short, neutral description of what this resource does.
+- [BLAST](https://blast.ncbi.nlm.nih.gov/) — Basic Local Alignment Search Tool for comparing nucleotide or amino-acid sequences against biological databases.
+- [BEDtools](https://github.com/arq5x/bedtools2) — Fast toolset for genome arithmetic operations, set intersections, and interval comparisons.
+- [GATK (Genome Analysis Toolkit)](https://github.com/broadinstitute/gatk) — Industry-standard software package for variant discovery and genotype caller pipelines.
+- [STAR](https://github.com/alexdobin/STAR) — Ultra-fast RNA-seq aligner capable of identifying splice junctions and mapping non-contiguous reads.
+- [Samtools](https://github.com/samtools/samtools) — Suite of utilities for manipulating, sorting, and indexing high-throughput alignment files (SAM/BAM/CRAM).
 
-## Another Section
+## Structural Biology & Protein Folding
 
-### Subsection
+Ab initio structure prediction frameworks, molecular dynamics simulators, and structural alignment solvers.
 
-- [Example Tool One](https://example.com/tool-one) — Short, neutral description of what this resource does.
-- [Example Tool Two](https://example.com/tool-two) — Short, neutral description of what this resource does.
+- [AlphaFold](https://github.com/google-deepmind/alphafold) — Deep learning model developed by DeepMind for predicting 3D protein structures directly from primary sequences.
+- [OpenMM](https://github.com/openmm/openmm) — High-performance toolkit for molecular simulations supporting GPU hardware acceleration.
+- [PyMOL](https://github.com/schrodinger/pymol-open-source) — Open-source molecular visualization system for rendering 3D macromolecular structures.
+- [AutoDock Vina](https://github.com/ccsb-scripps/auto-dock-vina) — Molecular docking software engineered for virtual screening and ligand-protein binding predictions.
+
+## Single-Cell & Transcriptomics
+
+Cell clustering algorithms, pseudo-time trajectory inference engines, and barcode processing toolkits.
+
+- [Seurat](https://github.com/satijalab/seurat) — R package designed for single-cell RNA sequencing data analysis, cell clustering, and spatial transcriptomics.
+- [Scanpy](https://github.com/scverse/scanpy) — Scalable Python toolkit for analyzing single-cell gene expression data integrated with SciPy data matrices.
+- [kallisto](https://github.com/pachterlab/kallisto) — Program for quantifying transcript abundances from RNA-seq data via fast pseudo-alignment.
+- [bustools](https://github.com/BUSpaRse/bustools) — Program for processing Barcode, UMI, and Set (BUS) files generated by single-cell sequencing protocols.
+
+## Network Biology & Systems Dynamics
+
+Graph platforms, reaction kinetics modeling frameworks, and biological pathway analysis engines.
+
+### Network Visualization & Pathways
+
+- [Cytoscape](https://github.com/cytoscape/cytoscape) — Open-source software platform for visualizing complex biomolecular interaction networks and integrating multi-omic attribute data.
+- [cBioPortal](https://github.com/cBioPortal/cbioportal) — Platform for interactive exploration and visualization of multidimensional cancer genomics data.
+
+### Systems Simulation & Reaction Kinetics
+
+- [COPASI](https://github.com/copasi/COPASI) — Open-source application for simulating and analyzing biochemical networks and parameter estimation.
+- [CellML Engine](https://www.cellml.org/) — XML-based open standard and execution system for describing computer-based biological models.
+
+## Language Libraries & Ecosystems
+
+Language-native toolkits for sequence processing, parsing standard bio-formats, and programmatic scientific workflows.
+
+- [Bioconductor](https://github.com/Bioconductor) — R-based open-source project providing tools for the analysis and comprehension of high-throughput genomic datasets.
+- [Biopython](https://github.com/biopython/biopython) — Freely available Python tools for computational molecular biology and sequence processing.
+- [BioJulia](https://github.com/BioJulia) — High-performance computational biology framework built for the Julia programming language.
+- [BioJava](https://github.com/biojava/biojava) — Java framework providing algorithms for processing protein structures, alignments, and genomic data formats.
 
 ## Related Awesome Lists
 
-- [Awesome Example One](https://example.com/awesome-one) — Short, neutral description of the related list.
-- [Awesome Example Two](https://example.com/awesome-two) — Short, neutral description of the related list.
-  
+- [Awesome Open Source](https://github.com/brandonhimpfen/awesome-open-source) — Best practices, licensing standards, and community management frameworks for open projects.
+- [Awesome Sustainability](https://github.com/brandonhimpfen/awesome-sustainability) — Open projects, frameworks, and datasets targeting environmental and biological sustainability.
+- [Awesome Open Data](https://github.com/brandonhimpfen/awesome-open-data) — Public datasets, spatial databases, and open scientific data repositories.
+- [Awesome Precision Agriculture](https://github.com/brandonhimpfen/awesome-precision-agriculture) — Crop analytics, biological soil modeling, and spatial farm telemetry.
+
 ## Contribute
 
 Contributions are welcome. Please ensure your submission fully follows the requirements outlined in [`CONTRIBUTING.md`](CONTRIBUTING.md), including formatting, scope alignment, and category placement.
@@ -49,14 +92,3 @@ Pull requests that do not adhere to the contribution guidelines may be closed.
 ## License
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
-
-## Maintenance
-
-This template includes GitHub Actions workflows for automated link checking:
-
-- **Links (PR)** checks Markdown links on pull requests.
-- **Links (Scheduled → Issue)** runs weekly and opens or updates an issue if it finds broken links.
-
-You can tune link checking behavior in `lychee.toml`.
-
-Automated checks: link checking (PR + weekly), duplicate URL detection, and a lightweight Awesome List lint.
